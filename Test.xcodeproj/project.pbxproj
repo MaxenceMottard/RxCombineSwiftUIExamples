@@ -12,7 +12,6 @@
 		D0A8B6662BC158F100CF77FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0A8B6652BC158F100CF77FF /* Assets.xcassets */; };
 		D0A8B6772BC15EF400CF77FF /* GetClubsCombineWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8B6752BC15EF400CF77FF /* GetClubsCombineWorker.swift */; };
 		D0A8B6782BC15EF400CF77FF /* GetClubsRxWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8B6762BC15EF400CF77FF /* GetClubsRxWorker.swift */; };
-		D0A8B68D2BC15F7D00CF77FF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D0A8B68C2BC15F7D00CF77FF /* RxCocoa */; };
 		D0A8B68F2BC15F7D00CF77FF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D0A8B68E2BC15F7D00CF77FF /* RxSwift */; };
 		D0A8B6932BC15FAC00CF77FF /* GetClubsWebServiceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8B6912BC15FAC00CF77FF /* GetClubsWebServiceResponse.swift */; };
 		D0A8B6942BC15FAC00CF77FF /* GetClubsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A8B6922BC15FAC00CF77FF /* GetClubsWebService.swift */; };
@@ -56,7 +55,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0A8B68F2BC15F7D00CF77FF /* RxSwift in Frameworks */,
-				D0A8B68D2BC15F7D00CF77FF /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +207,6 @@
 			);
 			name = Test;
 			packageProductDependencies = (
-				D0A8B68C2BC15F7D00CF77FF /* RxCocoa */,
 				D0A8B68E2BC15F7D00CF77FF /* RxSwift */,
 			);
 			productName = Test;
@@ -502,11 +499,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D0A8B68C2BC15F7D00CF77FF /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D0A8B6802BC15F6B00CF77FF /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
 		D0A8B68E2BC15F7D00CF77FF /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D0A8B6802BC15F6B00CF77FF /* XCRemoteSwiftPackageReference "RxSwift" */;

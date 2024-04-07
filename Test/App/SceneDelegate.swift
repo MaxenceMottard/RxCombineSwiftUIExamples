@@ -40,6 +40,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 //        self.window?.rootViewController = UINavigationController(rootViewController: rxViewController)
 //        self.window?.rootViewController = UINavigationController(rootViewController: rxWithSwiftUIViewController)
         self.window?.rootViewController = UINavigationController(rootViewController: combineWithSwiftUIViewController)
+
         self.window?.makeKeyAndVisible()
     }
 
