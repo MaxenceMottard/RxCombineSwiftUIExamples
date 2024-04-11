@@ -37,13 +37,13 @@ struct ClubsListWithRxSwiftUIView<ViewModel: ClubsListWithRxSwiftUIViewModelling
             VStack(spacing: 8) {
                 Text(club.name)
                     .font(.system(size: 16, weight: .regular))
-                    .foregroundStyle(Color("PrimaryTextColor"))
+                    .foregroundStyle(Color(.primaryText))
                     .frame(maxWidth: .infinity, alignment: .leading)
 
                 if let description = club.description {
                     Text(description)
                         .font(.system(size: 12, weight: .light))
-                        .foregroundStyle(Color("SecondaryTextColor"))
+                        .foregroundStyle(Color(.secondaryText))
                         .lineLimit(6)
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
